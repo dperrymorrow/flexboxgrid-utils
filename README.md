@@ -8,9 +8,9 @@ add on classes compatable with flexboxgrid
 
 | class          | xs       | sm      | md      | lg      |
 | ------------   |:--------:|:-------:|:-------:|:-------:|
-| .hide-xs-up    | visible  | hidden  | visible | visible |
+| .hide-xs-up    | visible  | hidden  | hidden  | hidden  |
 | .hide-sm-up    | visible  | visible | hidden  | hidden  |
 | .hide-sm-down  | hidden   | visible | visible | visible |
-| .hide-md-up    | hidden   | visible | visible | hidden  |
+| .hide-md-up    | visible  | visible | visible | hidden  |
 | .hide-md-down  | hidden   | hidden  | visible | visible |
 | .hide-lg-down  | hidden   | hidden  | hidden  | visible |
