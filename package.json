@@ -1,0 +1,29 @@
+{
+  "name": "flexboxgrid-utils",
+  "version": "1.0.0",
+  "description": "utility classes compatable with flexbox grid",
+  "main": "dist/index.css",
+  "scripts": {
+    "preversion": "npm run dist",
+    "dist": "stylus --inline --hoist-atrules --compress ./src/index.styl -o ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dperrymorrow/flexboxgrid-utils.git"
+  },
+  "keywords": [
+    "css",
+    "flexbox",
+    "flex",
+    "responsive"
+  ],
+  "author": "David Morrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dperrymorrow/flexboxgrid-utils/issues"
+  },
+  "homepage": "https://github.com/dperrymorrow/flexboxgrid-utils#readme",
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}
