@@ -1,1 +1,1 @@
-.hide,.hide-xs-up,.hide-sm-up,.hide-sm-down,.hide-md-down,.hide-md-up,.hide-lg-down{border:3px solid #f00}
+@media screen and (min-width:30em){.hide-xs-up{display:none !important}}@media screen and (min-width:48em){.hide-sm-up{display:none !important}}@media screen and (max-width:30em){.hide-sm-down{display:none !important}}@media screen and (max-width:48em){.hide-md-down{display:none !important}}@media screen and (min-width:64em){.hide-md-up{display:none !important}}@media screen and (max-width:64em){.hide-lg-down{display:none !important}}
